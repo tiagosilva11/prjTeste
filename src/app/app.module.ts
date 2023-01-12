@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { TabComponent } from './tab/tab.component';
+import { ScrollComponent } from './scroll/scroll.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    TabComponent
+    TabComponent,
+    ScrollComponent
   ],
   imports: [
     BrowserModule
